@@ -1,0 +1,208 @@
+#container{
+    height: 200px;
+    width: 100%;
+    background-color:lightgrey;
+    display: flex;
+    flex-direction: row; 
+    /* we have four directions in the flex row reverse, row, column reverse, column */
+    flex-wrap:wrap;
+    /*   flex-wrap: wrap-reverse; */
+    /* justify-content:space-evenly; */
+    justify-content: center;
+    align-items: center;
+  } 
+  #container div{
+    height: 20px;
+    /* width: 100px; */
+    /* max-height: 400px; */
+    /* width: 200px; */
+    /* margin-inline: 20px; */
+    /* margin: 20px; */
+  }
+  .div1{
+    width: 100px;
+    background-color: brown;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-inline: 10px;
+    
+  }
+  .div2{
+    width: 100px;
+    background-color: rgb(231, 171, 8);
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-inline: 10px;
+    /* margin: 30px; */
+    /* flex-grow: 1;
+    flex-shrink: 1; */
+  }
+  .div3{
+    width: 100px;
+    background-color: rgb(121, 196, 16);
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-inline: 10px;
+    /* margin: 50px; */
+  }
+  .div4{
+    width: 100px;
+    background-color: rgb(8, 157, 231);
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-inline: 10px;
+   /* order: 5;  */
+   /* highest order- it will be last, rest who are not assigned any order will have the order 0
+    we can also order them negative so it will come before the zero too */
+    
+  }
+  .div5{
+    width: 100px;
+    background-color: rgb(231, 8, 8);
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-inline: 10px;
+  }  
+
+  p{
+    color: black;
+    margin-top: 0px;
+    margin-left: 4px;
+  }
+
+  #sub1{
+    height: inherit;
+    width: 90%;
+    background-color: #0957ff; 
+    border-radius: 4px; 
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+
+  #sub2{
+    height: inherit;
+    width: 50%;
+    background-color: #09ff0d; 
+    border-radius: 4px; 
+    margin-left: 0px;
+    margin-top: 0px;
+  } 
+
+
+
+
+
+
+
+
+
+
+/* overflow div */
+#container-2{
+  width: 50px;
+  height: auto;
+  border: 2px solid black;
+  /* overflow-wrap: break-word; */
+  word-wrap: break-word;
+  /* both word and overflow wrap can be used */
+}
+
+
+
+
+
+
+
+
+
+
+/* gradient */
+#container-3{
+  height: 400px;
+  width: 400px;
+  margin: 40px;
+  border: 2px solid black;
+  /* gradient color */
+  /* background-image: linear-gradient(red,cyan,blue); */
+
+  /* setting direction */
+  /* background-image: linear-gradient(to right, red, cyan, blue); */
+  /* background-image: linear-gradient(90deg, red,cyan,blue); */
+  /* background: repeating-linear-gradient(50deg,red,blue 10px); */
+  background: radial-gradient(red,blue, cyan);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* lightbox element assignment */
+
+#container-4{
+  height: 400px;
+  width: 100%;
+  background-color: antiquewhite;
+  margin-bottom: 20px;
+}
+#lightbox{
+  height: 0;
+  width: 0;
+  position: relative;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  transition: all 1s ease-in-out;
+  /* border: 1px dashed black; */
+}
+#lightbox:target{
+  height: 30%;
+  width: 30%;
+  background-color: rgb(166, 165, 165);
+  top: 30%;
+  left: 30%;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* pseudo element */
+#pseudo-p::first-line{
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+#pseudo-p2{
+  background-color: lightgray;
+}
+#pseudo-p2::before{
+  content:'Before ';
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: capitalize;
+} 
+#pseudo-p2::after{
+  content:'After ';
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: capitalize;
+} 

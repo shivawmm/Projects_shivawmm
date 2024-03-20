@@ -1,0 +1,39 @@
+#edit-p{
+    text-align: center;
+    color: rgb(58, 18, 18);
+    text-decoration: underline;
+    text-transform: none;
+    margin-left: 50px;
+    
+}
+
+#first{
+    vertical-align: top;
+    border-radius: 20px;
+    padding: 5px;
+}
+#second{
+    vertical-align: top;
+    border-radius: 20px;
+    padding: 5px;
+}
+#third{
+    border-radius: 20px;
+    padding: 5px;
+}
+#fourth{
+    border-radius: 20px;
+    padding: 5px;
+}
+#outer-div{
+    border: 1px solid rgb(59, 7, 7);
+    border-radius: 5px;
+    background-image: url(https://public.ph.files.1drv.com/y4mn6X2Rc0WB54aHeTr3g5UEkVp6w7UVzPFM7DxOVnu-cczipOV_3xGhTcp7NDpr39241nKcLE73DcQc1orzlfzH9C-i9onjyYk4d47qeKGG4ttMelXfH3r-XeUNtreqUI8dQB9eRihRwVz9-Hyk_bwX7ztkDyfApd1-oX8MCP7y4_QLWEzEVB_zE-wmOpcsv8A9s-FEadBChe8jkAztt63I-EsApej5zW-TbNgn11pG0M?encodeFailures=1&width=1849&height=872);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    
+}
+#inner-div{
+    margin-left: 10px;
+}
