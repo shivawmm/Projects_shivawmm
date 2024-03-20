@@ -1,0 +1,125 @@
+main{
+  width: 60%;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-top: 2px;
+  padding: 4px;
+  background-color: #fff6eb;
+  margin-left: -2px;
+  margin-right: -2px;
+}
+.main-header{
+  width: 100%;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-top: 2px;
+  padding: 4px;
+  background-color: #fff6eb;
+  margin-left: 2px;
+  margin-right: -2px;
+  margin:auto;
+}
+p{
+  color: black;
+  font-size: 15px;
+  /* font-family: sans-serif; */ 
+}
+h1{
+  font-size: 40px;
+  /* font-family: sans-serif; */
+} 
+/* h4{
+  text-transform: uppercase;
+} */
+h1, p{
+  font-family: sans-serif;
+}
+.uppercase{
+  text-transform: uppercase;
+}
+/* .cursive{
+  font-family: cursive;
+} */
+#blog-desc{
+  color: #0e4f0b;
+}
+/* li h4{
+  text-transform: uppercase;
+  font-family: cursive;
+} */
+/* this will make all the list items uppercase and cursive */
+#site-desc p{
+  color: red;
+}
+#blog-title:hover{
+  color: orange;
+}
+#site-desc a {
+  font-size: 28px;
+  color: black;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+#site-desc:hover{
+  color: blueviolet;
+}
+
+/* Aside Section */
+
+/* .widget{
+  border-top:4px solid black ;
+  border-top:2px solid black ;
+  border-bottom:2px solid black ;
+  border-radius: 2px;
+} */
+.widget input{
+  display:block;
+  background-color: #f7f7f7;
+  margin: 2px;
+  margin-bottom: 15px;
+  padding: 4px;
+  color: black;
+  font-size: 1.2rem;
+  border-radius: 5px;
+}
+.sub-btn{
+  font-size: 1.2rem;
+  background-color:black;
+  color: white; 
+  padding: 10px;
+  border-radius: 5px;
+}
+.widget-title{
+  padding-top: -10px;
+  font-size: 1.5rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+aside1{
+  display: inline-block;
+  width: 18%;
+  vertical-align: top;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 2 px;
+  padding: 4px;
+  background-color: #fff6eb;
+}
+aside2{
+  display: inline-block;
+  width: 16%;
+  height: 200px;
+  vertical-align: top;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 2px;
+  padding: 4px;
+  background-color: #fff6eb;
+}
+#code{
+  color: black;
+}
+
+
+  
